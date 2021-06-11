@@ -7,7 +7,7 @@ import Modal from './components/OptionModal';
 import './styles/App.scss';
 
 const RootComponent = () => {
-  const [options, setOptions] = useState(['First', 'Second'])
+  const [options, setOptions] = useState([])
   const [selected, setSelected] = useState(undefined)
 
   useEffect(() => {
